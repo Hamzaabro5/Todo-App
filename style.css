@@ -13,74 +13,73 @@
     top: 15%;
     left: 35%;
 }
-.card {
-  width: 390px;
-  height: 454px;
+.uicard {
+  width: 400px;
+  height: 470px;
   background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
   border-radius: 20px;
   transition: all .3s;
 }
 
-.card2 {
-  width: 390px;
-  height: 454px;
+.uicard2 {
+  width: 400px;
+  height: 470px;
   background-color: #1a1a1a;
   border-radius: 10px;
   transition: all .2s;
 }
 
-.card2:hover {
+.uicard2:hover {
   transform: scale(0.98);
   border-radius: 20px;
 }
 
-.card:hover {
+.uicard:hover {
   box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
 }
 .head-text{
-    font-size: 26px;
+    font-size: 32px;
     display: flex;
     text-align: center;
     align-items: center;
     color: #fff;
-    padding: 20px 100px;
+    padding: 20px 110px;
 }
 .img1{
     width: 40px;
-    margin: 5px;
+    margin-left: 9px;
 }
-.input{
+.inputmain{
     display: flex;
     align-items: center;
     justify-content: space-between;
     border: 30px;
-    padding-left: 20px;
+    padding-left: 40px;
     margin-bottom: 25px;
 }
-input{
+#input-bar{
     flex: 1;
     color: #fff;
     padding: 10px;
     border: none;
     outline: none;
     background: transparent;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 10px;
     margin-left: 20px;
-    /* background-color: #CED0CE; */
 }
-.btn{
+.addbtn{
     border: none;
     outline: none;
-    border-radius: 20px;
-    padding: 10px 20px; 
-    background-color: #CED0CE;
+    border-radius: 30px;
+    padding: 5px 20px; 
     margin-right: 60px;
-    margin-top: 10px;
     cursor: pointer;
 }
-ul li{
+ol{
     list-style: none;
-    padding: 20px 40px;
+    padding: 10px 25px;
     color: #CED0CE;
 }
+
+
