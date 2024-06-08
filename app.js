@@ -11,10 +11,10 @@ function renderTodo() {
     <button type="button" class="btn btn-danger text-align-center" onclick="deleteTodo(${i})">Delete</button>
     <button type="button" class="btn btn-success" onclick = "editTodo(${i})">Edit</button>
     </ol>`
-    
-   }
-}
 
+    
+    }
+}
 function addTask() {
     
     arr.push(input.value)
